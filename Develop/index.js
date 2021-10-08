@@ -12,6 +12,11 @@ const questions = [
     },
     {
         type: 'input',
+        message: 'Please enter your email.',
+        name: 'email',
+    },
+    {
+        type: 'input',
         message: 'What is the name of your project?',
         name: 'title',
     },
@@ -40,12 +45,12 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'What do future users need to know about the repo?',
+        message: 'What do users need to know about the repo?',
         name: 'usage',
     },
     {
         type: 'input',
-        message: 'What do future users need to know about contributing to the repo?',
+        message: 'What do users need to know about contributing to the repo?',
         name: 'contributing',
     }
 ];
