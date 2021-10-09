@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== 'None') {
-  return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
   }
   return ''
 }
@@ -33,11 +33,27 @@ function generateMarkdown(data) {
   
   ##${renderLicenseBadge(data.license)}
   
-  g## Here's what this project is about:
+  ## Here's what this project is about:
   
   ${data.description}
 
-  ## Commands you'll need to get your app started:
+  ## Table of Contents
+    
+  * [Installation](#installation)
+
+  * [Usage](#usage)
+  ${renderLicenseLink(data.license)}
+  * [Contributing](#contributing)
+
+  * [Test](#test)
+
+  * [Questions](#questions)
+
+  * [Github](#github)
+
+  ## Installation
+
+  Commands you'll need to get your app started:
   
   ${data.installation}
 
@@ -47,23 +63,29 @@ function generateMarkdown(data) {
 
   ${renderLicenseSection(data.license)}
 
-  ${renderLicenseLink(data.license)}
-
   ## Contributing
   
   ${data.contributing}
 
-  ## If you have any further questions you may reach me here:
+  ## Tests
+
+  A great way to test your application, run this command:
+  
+  \'\'\'
+  ${data.test}
+  \'\'\'
+
+  ## Questions
+
+  If you have any further questions you may reach me here:
   
   ${data.email}
   
-  ## GitHub Username:
+  ## GitHub
+
+  You can find more of my work here.
   
   ${data.username}
-
-  ## A great way to test your app:
-  
-  ${data.test}
 `;
 }
 
