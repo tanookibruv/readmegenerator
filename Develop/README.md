@@ -1,17 +1,17 @@
 # Example
   
-  ##[![GitHub license](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)]
+  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]
   
   ## Here's what this project is about:
   
-  This is an example of  your README.
+  This is an example of a README.
 
   ## Table of Contents
     
   * [Installation](#installation)
 
   * [Usage](#usage)
-  [License](https://opensource.org/licenses/APACHE 2.0)
+  [License](https://opensource.org/licenses/MIT)
   * [Contributing](#contributing)
 
   * [Test](#test)
@@ -28,15 +28,15 @@
 
   ## Usage
   
-  A great way to make a professional README
+  A great way to make a professional README for any project
 
   ## License
     
-    This application is covered by APACHE 2.0 license.
+    This application is covered by MIT license.
 
   ## Contributing
   
-  Alter this code to better suit your projects
+  Alter this code to better suit your needs.
 
   ## Tests
 
