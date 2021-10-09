@@ -1,10 +1,10 @@
 # Example
   
-  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]
+  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   
   ## Here's what this project is about:
   
-  This is an example of a README.
+  This is an example of this README generator.
 
   ## Table of Contents
     
@@ -28,7 +28,7 @@
 
   ## Usage
   
-  A great way to make a professional README for any project
+  A great way to make a professional README for any project.
 
   ## License
     
